@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.admin.week4thurshwpablo.MainActivity">
+
+    <Button
+        android:text="Google Authentication"
+        android:onClick="authClicks"
+        android:id="@+id/btnGoogleAuth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:text="Facebook Authentication"
+        android:onClick="authClicks"
+        android:id="@+id/btnFacebookAuth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:text="Google Authentication"
+        android:onClick="authClicks"
+        android:id="@+id/btnTwitterAuth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>
